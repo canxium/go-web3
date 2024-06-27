@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chenzhijie/go-web3"
-	"github.com/chenzhijie/go-web3/eth"
-	"github.com/chenzhijie/go-web3/types"
+	"github.com/canxium/go-web3"
+	"github.com/canxium/go-web3/eth"
+	"github.com/canxium/go-web3/types"
 	"github.com/ethereum/go-ethereum/common"
 	eTypes "github.com/ethereum/go-ethereum/core/types"
 )

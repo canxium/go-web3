@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chenzhijie/go-web3/rpc"
+	"github.com/canxium/go-web3/rpc"
 )
 
 func TestGetBlockByNumber(t *testing.T) {
