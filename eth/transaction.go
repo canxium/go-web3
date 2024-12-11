@@ -112,6 +112,15 @@ func (e *Eth) SendRawTransaction(
 
 }
 
+func (e *Eth) SendByteTransaction(
+	hash common.Hash,
+	tx []byte,
+) error {
+	err := e.c.Call("eth_sendRawTransaction", &hash, tx)
+	return err
+
+}
+
 func (e *Eth) SyncSendRawTransaction(
 	to common.Address,
 	amount *big.Int,
